@@ -16,6 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - Added configuration `luau-lsp.bytecode.vectorLib`, `luau-lsp.bytecode.vectorCtor` and `luau-lsp.bytecode.vectorType` to configure compiler options when generating bytecode
   - Custom editors should handle the `luau-lsp/bytecode` and `luau-lsp/compilerRemarks` LSP message to integrate compiler remarks info in their editor
 - Added `luau-lsp.types.robloxSecurityLevel` to select what security level to use for the API types, out of: `None`, `LocalUserSecurity`, `PluginSecurity` and `RobloxScriptSecurity`
+- Added support for documentation in definitions files
 
 ### Changed
 
